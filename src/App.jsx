@@ -19,10 +19,10 @@ function App() {
   const [texto2, setTexto2] = useState();
   const [tamTexto1, setTamTexto1] = useState(25);
   const [tamTexto2, setTamTexto2] = useState(25);
-  const [colorTexto1 , setColorTexto1] = useState("#FFFFFF");
-  const [colorTexto2 , setColorTexto2] = useState("#FFFFFF");
+  const [colorTexto1 , setColorTexto1] = useState("#ffffff");
+  const [colorTexto2 , setColorTexto2] = useState("#06098d");
   const [bordeColorTexto1, setbordeColorTexto1] = useState("#000000");
-  const [bordeColorTexto2, setbordeColorTexto2] = useState("#000000");
+  const [bordeColorTexto2, setbordeColorTexto2] = useState("#999898");
   const [tipoFuente, setTipoFuente] = useState("Arial");
   const [posIniPalabra1X, setPosIniPalabra1X] = useState(250);
   const [posIniPalabra1Y, setPosIniPalabra1Y] = useState(260);
@@ -49,7 +49,7 @@ function App() {
       }}>
 
       <div className="container">
-
+    
         <imagen className="bg-light"><Imagen  ref={canvas} /></imagen>        
         <inputs className="bg-light text-dark"> 
           <Input   />

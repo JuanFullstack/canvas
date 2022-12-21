@@ -135,7 +135,7 @@ const Imagen = React.forwardRef((props,ref)=> {
         <div  id="print" >
 
         <div style={{
-          backgroundImage: `url('${noImage})`,
+          backgroundImage: `url("/dog.jpg")`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',

@@ -24,7 +24,7 @@ function ImageUploader() {
     return (
         <div className="p-3">
         <div className="p-4">
-            <button type="button" className="btn btn-primary btn-lg btn-block" onClick={handleFileInputClick}>Cargar imágen</button>  
+            <button type="button" className="btn btn-primary btn-lg btn-block" onClick={handleFileInputClick}> <span className='alert' >1° PASO :</span>"Sube aqui una Imagen" </button>  
         </div>
         <div class="input-group custom-file-button">
             <input type="file" className="btn btn-primary btn-lg btn-block" id="inputGroupFile" onChange={handleFileChange} style={{display: "none"}} />

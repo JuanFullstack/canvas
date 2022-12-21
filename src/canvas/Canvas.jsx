@@ -1,6 +1,7 @@
 import React, { useState, useRef , useEffect } from "react";
 import html2canvas from "html2canvas";
 
+
 import Slider from "react-slick";
 
 function Canvas() {

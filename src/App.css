@@ -39,8 +39,7 @@ body {
 
 .container {
   max-width: 992px;
-  margin: 100px auto;
-  padding: 30px;
+ 
   display: grid;
   grid-template-areas: 
   "header header "
@@ -261,4 +260,16 @@ p {
 
 @media (min-width: 992px) { 
 
+}
+
+.titulo {
+color: black;
+text-align: center;
+
+}
+
+.alert {
+
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
